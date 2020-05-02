@@ -3,7 +3,7 @@
 
   "name": "Gwent Deckfilter",
   "description": "Filter deck spamming friends",
-  "version": "1.0",
+  "version": "1.1",
 
   "browser_action": {
     "default_icon": "icon.png",
@@ -12,9 +12,9 @@
   },
   "content_scripts": [
     {
-      "matches": ["*://*.playgwent.com/*/decks/", "*://playgwent.com/*/decks"],
+      "matches": ["*://*.playgwent.com/*/decks", "*://playgwent.com/*/decks"],
       "js": ["hide-spam-decks.js"]
     }
   ],
-  "permissions": ["*://*.playgwent.com/*/decks/", "*://playgwent.com/*/decks/"]
+  "permissions": ["*://*.playgwent.com/*/decks", "*://playgwent.com/*/decks"]
 }

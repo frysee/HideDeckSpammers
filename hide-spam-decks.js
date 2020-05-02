@@ -1,7 +1,6 @@
 var spamBros = ['CaglarYilmazz', 'ISpreadI']
 
 ;(function() {
-  console.log('[HideSpamDecks] Running deckspam extension')
 
   hideSpam()
 
